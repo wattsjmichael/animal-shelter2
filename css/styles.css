@@ -43,5 +43,12 @@ h1 {
 }
 
 .special p {
-  background-color: whitesmoke;
+  background-color: red;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: black;
+    color: white;
+  }
 }
